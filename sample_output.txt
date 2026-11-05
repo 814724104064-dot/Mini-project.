@@ -1,0 +1,15 @@
+FIREWALL RULE OPTIMIZATION
+------------------------------
+Original Rules: 5
+Optimized Rules: 4
+
+Optimized Firewall Rules:
+(1, 'TCP', 80, 'ALLOW')
+(2, 'UDP', 53, 'ALLOW')
+(4, 'TCP', 22, 'BLOCK')
+(5, 'UDP', 53, 'BLOCK')
+
+Conflicting Rules (protocol, port):
+('UDP', 53)
+
+Note: Conflicts are reported for manual review; no rule is automatically deleted.
